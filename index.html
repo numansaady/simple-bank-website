@@ -5,9 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Simple Bank Website</title>
+    <!-- tailwindcss  -->
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
+    <!-- Welcome Area -->
+    <header class="text-center my-8">
+      <h1>Welcome to NSS Bank Limited</h1>
+    </header>
+    <!-- Login Form Area  -->
+    <main>
+      <section id="login-area" class="container mx-auto w-3/4 bg-green-200 p">
+        <div  class="text-center p-12">
+          <input
+            type="text"
+            id="email-field"
+            placeholder="Write you email here"
+            class="px-4 py-2 m-2 border-2 border-orange-600"
+          />
+          <br />
+          <input
+            type="password"
+            id="password-field"
+            placeholder="Write your password here"
+            class="px-4 py-2 m-2 border-2 border-orange-600"
+          />
+          <br />
+          <button
+            id="login-btn"
+            type="submit"
+            class="mt-2 px-8 py-2 bg-slate-400 font-bold"
+          >
+            Submit
+          </button>
+        </d>
+      </section>
+    </main>
     <script src="./js/main.js"></script>
   </body>
 </html>
